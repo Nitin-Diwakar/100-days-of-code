@@ -1,4 +1,4 @@
-from random import randint
+from random import randint #import random module
 
 EASY_LEVEL_TURNS = 10
 HARD_LEVEL_TURNS = 5
