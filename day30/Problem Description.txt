@@ -1,0 +1,9 @@
+Problem Description
+The program takes in a date and checks if it a valid date and prints the incremented date if it is.
+Problem Solution
+1. Take in the date of the form: dd/mm/yyyy.
+2. Split the date and store the day, month and year in separate variables.
+3. Use various if-statements to check if the day, month and year are valid.
+4. Increment the date if the date is valid and print it.
+5. Exit.
+
