@@ -1,0 +1,10 @@
+Problem Description
+********************
+The program takes in the marks of 5 subjects and displays the grade.
+
+Problem Solution
+****************
+1. Take in the marks of 5 subjects from the user and store it in different variables.
+2. Find the average of the marks.
+3. Use an else condition to decide the grade based on the average of the marks.
+4. Exit.
