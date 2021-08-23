@@ -1,0 +1,37 @@
+course = ['Python programming','RDBMS','Web technology','Software Engg']
+electives = ['Business Intelligence','Big Data Analytics']
+
+
+crs = len(course)
+#1
+print('John opted {} courses.'.format(crs))
+print()
+
+#2
+print("Courses opted by John:")
+print(">>",end=" ")
+for x in course:
+    print(x,end=",")
+print() 
+
+#3
+print("\nJohn is also interested in new course:")
+print(">>",end="")
+new_list = course + electives
+print(new_list)
+print()
+
+#4
+a = input("Do you want to change 'Software Engg' to 'Computer Networks'? Y/N:")
+if a.upper() == 'Y':
+    
+    new_list.pop()
+    new_list.append("Computer Software")
+    print("\n John Updates the Courses:\n")
+    print(">>",new_list)
+else:
+    print('Course changed not allowed.You courses are:')
+    print(">>",new_list)
+    
+
+    
